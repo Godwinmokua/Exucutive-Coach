@@ -83,11 +83,11 @@ li button:hover{
     position: absolute;
     display: flex;
     justify-content: center;
-    margin-left: 135px;
-    margin-top: -190px;
+    margin-left: 105px;
+    margin-top: -220px;
     color: #000;
     background: white;
-    padding: 15px;
+    padding: 15px 20px;
     border-radius: 20px;
     border: 1px solid black;
     box-shadow: 0 1px 5px black;
@@ -104,13 +104,13 @@ li button:hover{
     background-color: #fff;
     position: relative;
     display: flex;
-    height: 200px;
+    height: 250px;
     justify-content: center;
     align-items: center;
     gap: 30px;
     box-shadow: 0 1px 5px black;
     position: relative;
-    margin-top: -100px;
+    margin-top: -125px;
 }
 .search_section button{
     height: 50px;
