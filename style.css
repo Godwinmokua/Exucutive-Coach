@@ -447,6 +447,8 @@ footer {
     .award-container{
         flex-direction: column;
     }
+
+
 }
 
 @media screen and (max-width: 480px) {
@@ -454,13 +456,13 @@ footer {
         font-size: 12px;
     }
     .destinations img{
-        width: 300px;
+        width: 90%;
         height: auto;
         margin: auto;
     }
     .bus-image img{
 
-        margin-top: -80px;
+        margin-top: -90px;
     }
 }
 
