@@ -446,10 +446,6 @@ footer {
     .award-container{
         flex-direction: column;
     }
-    .award img{
-        width: 200px;
-    }
-
 
 }
 
@@ -471,10 +467,6 @@ footer {
     }.award img{
         width: 80%;
     }
-    .award img{
-        width: 150px;
-    }
-
 }
 
 
