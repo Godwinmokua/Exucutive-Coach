@@ -262,6 +262,9 @@ nav label{
     align-items: center;
     margin: 50px    auto;
 }
+.award img{
+    width: 80%;
+}
 
 
 /* Footer */
@@ -461,9 +464,13 @@ footer {
         margin: auto;
     }
     .bus-image img{
-
-        margin-top: -90px;
+        margin-top: -100px;
     }
+    .award-container{
+        justify-content: center;
+        align-items: center;
+    }
+
 }
 
 
