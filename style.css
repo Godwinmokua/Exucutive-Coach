@@ -262,10 +262,6 @@ nav label{
     align-items: center;
     margin: 50px    auto;
 }
-.award img{
-    width: 80%;
-}
-
 
 /* Footer */
 footer {
@@ -450,6 +446,9 @@ footer {
     .award-container{
         flex-direction: column;
     }
+    .award img{
+        width: 200px;
+    }
 
 
 }
@@ -469,6 +468,11 @@ footer {
     .award-container{
         justify-content: center;
         align-items: center;
+    }.award img{
+        width: 80%;
+    }
+    .award img{
+        width: 150px;
     }
 
 }
