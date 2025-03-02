@@ -455,6 +455,10 @@ footer {
         font-size: 14px;
         font-weight: 400;
     }
+    .search_section button{
+        height: 30px;
+        font-size: 14px;
+    }
 
 }
 
