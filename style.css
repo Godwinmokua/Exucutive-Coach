@@ -451,11 +451,12 @@ footer {
         font-size: 12px;
     }
     .destinations img{
-        width: 350px;
+        width: 200px;
         height: auto;
         margin: auto;
     }
     .bus-image img{
+
         margin-top: -80px;
     }
 }
