@@ -363,7 +363,7 @@ footer {
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 770px) {
     body {
         font-size: 14px;
     }
@@ -425,7 +425,7 @@ footer {
         margin: auto;
     }
     .destinations img{
-        width: 340px;
+        width: 330px;
         height: auto;
         margin: auto;
     }
@@ -435,12 +435,10 @@ footer {
     }
     .greenland img{
         width: 100%;
-        object-fit: cover;
         height: 400px; 
-        width: 100%; /* Makes it responsive */
-        /* max-width: 400px;  */
-        height: auto; /* Maintains aspect ratio */
-        object-fit: contain; /* Ensures it doesn’t get stretched */
+        width: 100%;
+        height: auto;
+        object-fit: contain; 
         display: block;   
     }
     .award-container{
