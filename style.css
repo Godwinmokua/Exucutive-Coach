@@ -446,6 +446,15 @@ footer {
     .award-container{
         flex-direction: column;
     }
+    .input_box select,input{
+        height: 30px;
+        font-size: 14px;
+        font-weight: 400;
+    }
+    .input_box label{
+        font-size: 14px;
+        font-weight: 400;
+    }
 
 }
 
