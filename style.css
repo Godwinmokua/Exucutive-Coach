@@ -155,10 +155,12 @@ nav label{
     height: 200px;
     margin: 70px auto;
     display: flex;
+    flex-wrap: wrap;
     gap: 30px;
 }
 .positive{
     display: flex;
+    flex: 1;
     flex-basis: 33.333%;
     flex-wrap: wrap;
     flex-direction: column;
@@ -443,8 +445,8 @@ footer {
     .greenland .writing{
         left: 50px;
     }
-    .award-container{
-        flex-direction: column;
+    .awards{
+        display: none;
     }
     .input_box select,input{
         height: 30px;
