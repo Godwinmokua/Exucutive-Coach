@@ -441,6 +441,9 @@ footer {
         object-fit: contain; 
         display: block;   
     }
+    .greenland .writing{
+        left: 50px;
+    }
     .award-container{
         flex-direction: column;
     }
@@ -451,7 +454,7 @@ footer {
         font-size: 12px;
     }
     .destinations img{
-        width: 200px;
+        width: 300px;
         height: auto;
         margin: auto;
     }
