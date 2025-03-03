@@ -501,7 +501,7 @@ footer {
     border: 2px solid black;
     border-radius: 20px;
     height: 550px;
-    width: 100%;
+    width: 400px;
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -558,7 +558,8 @@ footer {
         width: 100%;
     }
     .login-container form{
-        margin: 10px;
+        width: 350px;
+        height: 500px;
     }
 }
 @media screen and (max-width: 480px){
