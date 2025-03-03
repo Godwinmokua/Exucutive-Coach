@@ -558,7 +558,7 @@ footer {
         width: 100%;
     }
     .login-container form{
-        width: 300px;
+        width: 320px;
         height: 500px;
     }
 }
@@ -616,7 +616,7 @@ input[type=number]::-webkit-inner-spin-button {
         width: 100%;
     }
     .register-container form{
-        width: 300px;
+        width: 320px;
         height: 650px;
     }
 }
