@@ -7,254 +7,331 @@
     <link rel="stylesheet" href="style.css">
     <link rel="shortcut icon" href="/assets/favicon.gif" type="image/x-icon">
     <title>Executive Coach</title>
-    <script></script>
+    <script src="script.js" defer></script>
 </head>
 <body>
-    <div class="marq">
-        <p align="center">
-            <i class="fa-solid fa-bell fa-l" style="color: #ffc802;"></i>The Official Premium Bus Booking site<i class="fa-solid fa-bell fa-l" style="color: #ffc802;"></i>
-        </p>
-    </div>
-    <nav>
-        <input type="checkbox" id="check">
-        <label for="check" class="checkbtn">
-            <i class="fas fa-bars fa-2xl"></i>
-        </label>
-        <div class="logo">
-            <h1>Exucutive Coach</h1>
+    <div class="homepage">
+        <div class="marq">
+            <p align="center">
+                <i class="fa-solid fa-bell fa-l" style="color: #ffc802;"></i>The Official Premium Bus Booking site<i class="fa-solid fa-bell fa-l" style="color: #ffc802;"></i>
+            </p>
         </div>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="#">Bus Hire</a></li>
-            <li><a href="#">Parcels</a></li>
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">Contact Us</a></li>
-            <li><a href="login.html" target="_parent"><button>Login</button></a></li>
-        </ul>
-    </nav>
-
-    <div class="bus-image">
-        <img src="/assets/Exucutive Coach.webp" alt="Bus" width="100%" height="600px">
-    </div>
-    <div class="slogan">
-        <h1>Experience Dignity</h1>
-    </div>
-    <section class="search_section">
-        <form>
-            <div class="input_box">
-                <label for="departure">From:</label>
-                <select id="departure" name="departure">
-                    <option>Select...</option>
-                    <option value="awendo">Awendo</option>
-                    <option value="bomet">Bomet</option>
-                    <option value="bondo">Bondo</option>
-                    <option value="bungoma">Bungoma</option>
-                    <option value="busia">Busia</option>
-                    <option value="butere">Butere</option>
-                    <option value="eldoret">Eldoret</option>
-                    <option value="homabay">Homa Bay</option>
-                    <option value="kakamega">Kakamega</option>
-                    <option value="kampala">Kampala</option>
-                    <option value="kapsabet">Kapsabet</option>
-                    <option value="kendubay">Kendu Bay</option>
-                    <option value="kericho">Kericho</option>
-                    <option value="keroka">Keroka</option>
-                    <option value="kisii">Kisii</option>
-                    <option value="kisumu">Kisumu</option>
-                    <option value="kitale">Kitale</option>
-                    <option value="kimilili">Kimilili</option>
-                    <option value="malaba">Malaba</option>
-                    <option value="maseno">Maseno</option>
-                    <option value="mbale">Mbale</option>
-                    <option value="mbita">Mbita</option>
-                    <option value="migori">Migori</option>
-                    <option value="moi-bridge">Moi’s Bridge</option>
-                    <option value="mumias">Mumias</option>
-                    <option value="nairobi">Nairobi</option>
-                    <option value="nakuru">Nakuru</option>
-                    <option value="narok">Narok</option>
-                    <option value="ndori">Ndori</option>
-                    <option value="oyugis">Oyugis</option>
-                    <option value="rongo">Rongo</option>
-                    <option value="siaya">Siaya</option>
-                    <option value="sirare">Sirare</option>
-                    <option value="ugunja">Ugunja</option>
-                    <option value="usenge">Usenge</option>
-                    <option value="webuye">Webuye</option>
-                </select>
+        <nav>
+            <input type="checkbox" id="check">
+            <label for="check" class="checkbtn">
+                <i class="fas fa-bars fa-2xl"></i>
+            </label>
+            <div class="logo">
+                <h1>Exucutive Coach</h1>
             </div>
-            <div class="input_box">
-                <label for="destination">To:</label>
-                <select id="destination" name="destination">
-                    <option>Select...</option>
-                    <option value="awendo">Awendo</option>
-                    <option value="bomet">Bomet</option>
-                    <option value="bondo">Bondo</option>
-                    <option value="bungoma">Bungoma</option>
-                    <option value="busia">Busia</option>
-                    <option value="butere">Butere</option>
-                    <option value="eldoret">Eldoret</option>
-                    <option value="homabay">Homa Bay</option>
-                    <option value="kakamega">Kakamega</option>
-                    <option value="kampala">Kampala</option>
-                    <option value="kapsabet">Kapsabet</option>
-                    <option value="kendubay">Kendu Bay</option>
-                    <option value="kericho">Kericho</option>
-                    <option value="keroka">Keroka</option>
-                    <option value="kisii">Kisii</option>
-                    <option value="kisumu">Kisumu</option>
-                    <option value="kitale">Kitale</option>
-                    <option value="kimilili">Kimilili</option>
-                    <option value="malaba">Malaba</option>
-                    <option value="maseno">Maseno</option>
-                    <option value="mbale">Mbale</option>
-                    <option value="mbita">Mbita</option>
-                    <option value="migori">Migori</option>
-                    <option value="moi-bridge">Moi’s Bridge</option>
-                    <option value="mumias">Mumias</option>
-                    <option value="nairobi">Nairobi</option>
-                    <option value="nakuru">Nakuru</option>
-                    <option value="narok">Narok</option>
-                    <option value="ndori">Ndori</option>
-                    <option value="oyugis">Oyugis</option>
-                    <option value="rongo">Rongo</option>
-                    <option value="siaya">Siaya</option>
-                    <option value="sirare">Sirare</option>
-                    <option value="ugunja">Ugunja</option>
-                    <option value="usenge">Usenge</option>
-                    <option value="webuye">Webuye</option>
-                </select>
-            </div>
-            <div class="input_box">
-                <label for="date">Departure:</label>
-                <input type="date" id="date" required name="date" autocomplete="off">
-            </div><br>
-            <button type="submit">Make a booking</button>
-        </form>
-    </section>
-
-
-    <section class="positivities">
-        <div class="positive">
-            <i class="fa-solid fa-chair fa-3x" style="color:hsl(34, 100%, 49%);"></i>
-            <h3 align="center">Comfort on board</h3>
-            <p align="center">Our buses are equipped with large and comfortable seats.</p>
-        </div>
-        <div class="positive">
-            <i class="fa-solid fa-location-dot fa-3x" style="color: hsl(34,100%, 49%);"></i>
-            <h3 align="center">Largest bus network in Kenya</h3>
-            <p align="center">Choose from over 35 travel destinations.</p>
-        </div>
-        <div class="positive">
-            <i class="fa-solid fa-leaf fa-3x" style="color: hsl(34, 100%, 49%);"></i>
-            <h3 align="center">Travel environmentally-friendly</h3>
-            <p align="center">Our efficient coaches are proven to have an excellent carbon footprint.</p>
-        </div>
-    </section>
-
-
-    <section class="top-destinations">
-        <h2>Top Destinations</h2>
-        <div class="destinations-container">
-            <div class="destinations">
-                <h5>NAIROBI</h5>
-                <img src="/assets/nairobi.webp" alt="Nairobi">
-                <h3>Nairobi to Kitale</h3>
-            </div>
-            <div class="destinations">
-                <h5>SIRARE</h5>
-                <img src="/assets/sirare.webp" alt="Nairobi">
-                <h3>Nairobi to Sirare</h3>
-            </div>
-            <div class="destinations">
-                <h5>MUMIAS</h5>
-                <img src="/assets/mumias.webp" alt="Nairobi">
-                <h3>Nairobi to Mumias</h3>
-            </div>
-            <div class="destinations">
-                <h5>BUSIA</h5>
-                <img src="/assets/busia.webp" alt="Nairobi">
-                <h3>Nairobi to Busia</h3>
-            </div>
-            <div class="destinations">
-                <h5>MALABA</h5>
-                <img src="/assets/malaba.webp" alt="Nairobi">
-                <h3>Nairobi to Malaba</h3>
-            </div>
-            <div class="destinations">
-                <h5>KISUMU</h5>
-                <img src="/assets/kisumu.webp" alt="Nairobi">
-                <h3>Kisumu to Nairobi</h3>
-            </div>
-        </div>
-    </section>
-
-    <section class="greenland">
-        <div class="writing">
-            <h1>Discover all Destinations</h1>
-            <p>Choose from over 35 Travel Destinations</p>
-        </div>
-        <img src="/assets/Kenya-Tealand-Near-Kericho-2012.JPG" alt="Kericho" >
-    </section>
-
-    <section class="awards">
-        <h1>Awards</h1>
-        <div class="award-container">
-            <div class="award">
-                <img src="/assets/ministry.jpeg" alt="Ministry  of Road and Transport" width="330px">
-            </div>
-            <div class="award">
-                <img src="/assets/KRA.png" alt="KRA" width="150px">
-            </div>
-            <div class="award">
-                <img src="/assets/superbrands.jpeg" alt="Superbrands" width="100px">
-            </div>
-            <div class="award">
-                <img src="/assets/kpmg.png" alt="kpmg" width="150px">
-            </div>
-        </div> 
-    </section>
-
-
-    <footer>
-    <div class="footer-container">
-        <div class="footer-section">
-            <h3>About Us</h3>
-            <p>Your go-to platform for easy and reliable bus bookings across Kenya.</p>
-        </div>
-        <div class="footer-section">
-            <h3>Quick Links</h3>
             <ul>
                 <li><a href="index.html">Home</a></li>
-                <li><a href="#">Destinations</a></li>
                 <li><a href="#">Bus Hire</a></li>
                 <li><a href="#">Parcels</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><button onclick="openloginpage()">Login</button></li>
             </ul>
-        </div>
-        <div class="footer-section">
-            <h3>Contact Us</h3>
-            <p>📍 Nairobi, Kenya</p>
-            <p>📞 +254 700 123456</p>
-            <p>📧 support@busbooking.com</p>
-        </div>
-        <div class="footer-section">
-            <h3>Top Routes</h3>
-            <a href="#">Nairobi to Kitale</a><br>
-            <a href="#">Nairobi to Sirare</a><br>
-            <a href="#">Nairobi to Mumias</a><br>
-            <a href="#">Nairobi to Busia</a>
-        </div>
-        <div class="footer-section">
-            <h3>Follow Us</h3>
-            <a href="#">Facebook</a> | 
-            <a href="#">Instagram</a> | 
-            <a href="#">Twitter</a>
+        </nav>
 
-            <h3>Get The App</h3>
-            <a href="#"><img src="/assets/app-logo-GooglePlay.png" alt="Google playstore" width="130px"></a>
+        <div class="bus-image">
+            <img src="/assets/Exucutive Coach.webp" alt="Bus" width="100%" height="600px">
         </div>
+        <div class="slogan">
+            <h1>Experience Dignity</h1>
+        </div>
+        <section class="search_section">
+            <form>
+                <div class="input_box">
+                    <label for="departure">From:</label>
+                    <select id="departure" name="departure">
+                        <option>Select...</option>
+                        <option value="awendo">Awendo</option>
+                        <option value="bomet">Bomet</option>
+                        <option value="bondo">Bondo</option>
+                        <option value="bungoma">Bungoma</option>
+                        <option value="busia">Busia</option>
+                        <option value="butere">Butere</option>
+                        <option value="eldoret">Eldoret</option>
+                        <option value="homabay">Homa Bay</option>
+                        <option value="kakamega">Kakamega</option>
+                        <option value="kampala">Kampala</option>
+                        <option value="kapsabet">Kapsabet</option>
+                        <option value="kendubay">Kendu Bay</option>
+                        <option value="kericho">Kericho</option>
+                        <option value="keroka">Keroka</option>
+                        <option value="kisii">Kisii</option>
+                        <option value="kisumu">Kisumu</option>
+                        <option value="kitale">Kitale</option>
+                        <option value="kimilili">Kimilili</option>
+                        <option value="malaba">Malaba</option>
+                        <option value="maseno">Maseno</option>
+                        <option value="mbale">Mbale</option>
+                        <option value="mbita">Mbita</option>
+                        <option value="migori">Migori</option>
+                        <option value="moi-bridge">Moi’s Bridge</option>
+                        <option value="mumias">Mumias</option>
+                        <option value="nairobi">Nairobi</option>
+                        <option value="nakuru">Nakuru</option>
+                        <option value="narok">Narok</option>
+                        <option value="ndori">Ndori</option>
+                        <option value="oyugis">Oyugis</option>
+                        <option value="rongo">Rongo</option>
+                        <option value="siaya">Siaya</option>
+                        <option value="sirare">Sirare</option>
+                        <option value="ugunja">Ugunja</option>
+                        <option value="usenge">Usenge</option>
+                        <option value="webuye">Webuye</option>
+                    </select>
+                </div>
+                <div class="input_box">
+                    <label for="destination">To:</label>
+                    <select id="destination" name="destination">
+                        <option>Select...</option>
+                        <option value="awendo">Awendo</option>
+                        <option value="bomet">Bomet</option>
+                        <option value="bondo">Bondo</option>
+                        <option value="bungoma">Bungoma</option>
+                        <option value="busia">Busia</option>
+                        <option value="butere">Butere</option>
+                        <option value="eldoret">Eldoret</option>
+                        <option value="homabay">Homa Bay</option>
+                        <option value="kakamega">Kakamega</option>
+                        <option value="kampala">Kampala</option>
+                        <option value="kapsabet">Kapsabet</option>
+                        <option value="kendubay">Kendu Bay</option>
+                        <option value="kericho">Kericho</option>
+                        <option value="keroka">Keroka</option>
+                        <option value="kisii">Kisii</option>
+                        <option value="kisumu">Kisumu</option>
+                        <option value="kitale">Kitale</option>
+                        <option value="kimilili">Kimilili</option>
+                        <option value="malaba">Malaba</option>
+                        <option value="maseno">Maseno</option>
+                        <option value="mbale">Mbale</option>
+                        <option value="mbita">Mbita</option>
+                        <option value="migori">Migori</option>
+                        <option value="moi-bridge">Moi’s Bridge</option>
+                        <option value="mumias">Mumias</option>
+                        <option value="nairobi">Nairobi</option>
+                        <option value="nakuru">Nakuru</option>
+                        <option value="narok">Narok</option>
+                        <option value="ndori">Ndori</option>
+                        <option value="oyugis">Oyugis</option>
+                        <option value="rongo">Rongo</option>
+                        <option value="siaya">Siaya</option>
+                        <option value="sirare">Sirare</option>
+                        <option value="ugunja">Ugunja</option>
+                        <option value="usenge">Usenge</option>
+                        <option value="webuye">Webuye</option>
+                    </select>
+                </div>
+                <div class="input_box">
+                    <label for="date">Departure:</label>
+                    <input type="date" id="date" required name="date" autocomplete="off">
+                </div><br>
+                <button type="submit">Make a booking</button>
+            </form>
+        </section>
+
+        <!-- Benefits of the company -->
+        <section class="positivities">
+            <div class="positive">
+                <i class="fa-solid fa-chair fa-3x" style="color:hsl(34, 100%, 49%);"></i>
+                <h3 align="center">Comfort on board</h3>
+                <p align="center">Our buses are equipped with large and comfortable seats.</p>
+            </div>
+            <div class="positive">
+                <i class="fa-solid fa-location-dot fa-3x" style="color: hsl(34,100%, 49%);"></i>
+                <h3 align="center">Largest bus network in Kenya</h3>
+                <p align="center">Choose from over 35 travel destinations.</p>
+            </div>
+            <div class="positive">
+                <i class="fa-solid fa-leaf fa-3x" style="color: hsl(34, 100%, 49%);"></i>
+                <h3 align="center">Travel environmentally-friendly</h3>
+                <p align="center">Our efficient coaches are proven to have an excellent carbon footprint.</p>
+            </div>
+        </section>
+
+        <!-- Top Destination -->
+        <section class="top-destinations">
+            <h2>Top Destinations</h2>
+            <div class="destinations-container">
+                <div class="destinations">
+                    <h5>NAIROBI</h5>
+                    <img src="/assets/nairobi.webp" alt="Nairobi">
+                    <h3>Nairobi to Kitale</h3>
+                </div>
+                <div class="destinations">
+                    <h5>SIRARE</h5>
+                    <img src="/assets/sirare.webp" alt="Nairobi">
+                    <h3>Nairobi to Sirare</h3>
+                </div>
+                <div class="destinations">
+                    <h5>MUMIAS</h5>
+                    <img src="/assets/mumias.webp" alt="Nairobi">
+                    <h3>Nairobi to Mumias</h3>
+                </div>
+                <div class="destinations">
+                    <h5>BUSIA</h5>
+                    <img src="/assets/busia.webp" alt="Nairobi">
+                    <h3>Nairobi to Busia</h3>
+                </div>
+                <div class="destinations">
+                    <h5>MALABA</h5>
+                    <img src="/assets/malaba.webp" alt="Nairobi">
+                    <h3>Nairobi to Malaba</h3>
+                </div>
+                <div class="destinations">
+                    <h5>KISUMU</h5>
+                    <img src="/assets/kisumu.webp" alt="Nairobi">
+                    <h3>Kisumu to Nairobi</h3>
+                </div>
+            </div>
+        </section>
+        <!-- Greenland -->
+        <section class="greenland">
+            <div class="writing">
+                <h1>Discover all Destinations</h1>
+                <p>Choose from over 35 Travel Destinations</p>
+            </div>
+            <img src="/assets/Kenya-Tealand-Near-Kericho-2012.JPG" alt="Kericho" >
+        </section>
+
+        <section class="awards">
+            <h1>Awards</h1>
+            <div class="award-container">
+                <div class="award">
+                    <img src="/assets/ministry.jpeg" alt="Ministry  of Road and Transport" width="330px">
+                </div>
+                <div class="award">
+                    <img src="/assets/KRA.png" alt="KRA" width="150px">
+                </div>
+                <div class="award">
+                    <img src="/assets/superbrands.jpeg" alt="Superbrands" width="100px">
+                </div>
+                <div class="award">
+                    <img src="/assets/kpmg.png" alt="kpmg" width="150px">
+                </div>
+            </div> 
+        </section>
+        <!-- Footer -->
+        <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h3>About Us</h3>
+                <p>Your go-to platform for easy and reliable bus bookings across Kenya.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">Destinations</a></li>
+                    <li><a href="#">Bus Hire</a></li>
+                    <li><a href="#">Parcels</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Contact Us</h3>
+                <p>📍 Nairobi, Kenya</p>
+                <p>📞 +254 700 123456</p>
+                <p>📧 support@busbooking.com</p>
+            </div>
+            <div class="footer-section">
+                <h3>Top Routes</h3>
+                <a href="#">Nairobi to Kitale</a><br>
+                <a href="#">Nairobi to Sirare</a><br>
+                <a href="#">Nairobi to Mumias</a><br>
+                <a href="#">Nairobi to Busia</a>
+            </div>
+            <div class="footer-section">
+                <h3>Follow Us</h3>
+                <a href="#">Facebook</a> | 
+                <a href="#">Instagram</a> | 
+                <a href="#">Twitter</a>
+
+                <h3>Get The App</h3>
+                <a href="#"><img src="/assets/app-logo-GooglePlay.png" alt="Google playstore" width="130px"></a>
+            </div>
+        </div>
+        <p class="copyright">© 2025 BusBooking. All Rights Reserved.</p>
+        </footer>
     </div>
-    <p class="copyright">© 2025 BusBooking. All Rights Reserved.</p>
-</footer>
+
+    <!-- LOGIN SECTION -->
+    <div class="login-container" id="login-container">
+        <form action="">
+             <a onclick="closeloginpage()"><i class="fa-solid fa-xmark fa-xl" style="color: #000205;"></i></a>
+             <div class="form-header">
+                  <h1>Executive Coach</h1>
+                  <h2>Login</h2>
+             </div>
+             <div class="form-input">
+                  <label for="email">Email Address</label>
+                  <input type="email" name="email" id="email" required placeholder="johndoe@email.com">
+             </div>
+             <div class="form-input">
+                  <label for="password">Password</label>
+                  <input type="password" name="password" id="password" maxlength="16" minlength="8" required placeholder="password..">
+                  <div class="forgot-password">
+                       <a onclick="openforgotpass()">Forgot Password?</a>
+                  </div>
+             </div>
+             <button type="submit" class="login-btn">Login</button>
+             <div class="form-section">
+                  <p>Don't Have Account? <a onclick="openregister()">Register</a></p>
+             </div>
+        </form>
+    </div>
+    <!-- REGISTER SECTION -->
+    <div class="register-container" id="register-container">
+        <form action="">
+            <a onclick="closeregister()"><i class="fa-solid fa-xmark fa-xl" style="color: #000205;"></i></a>
+             <div class="form-header">
+                  <h1>Executive Coach</h1>
+                  <h2>Register</h2>
+             </div>
+             <div class="form-input">
+                  <label for="username">Full Name</label>
+                  <input type="text" name="username" id="username" required placeholder="John Doe" maxlength="50">
+             </div>
+             <div class="form-input">
+                  <label for="id-number">ID Number</label>
+                  <input type="number" name="id-number" id="id-number" required placeholder="12345678" min="10000000" max="99999999" >
+             </div>
+             <div class="form-input">
+                  <label for="email">Email Address</label>
+                  <input type="email" name="email" id="email" required placeholder="johndoe@email.com">
+             </div>
+             <div class="form-input">
+                  <label for="password">Password</label>
+                  <input type="password" name="password" id="password" maxlength="16" minlength="8" required placeholder="password..">
+             </div>
+             <div class="form-input">
+                  <label for="password">Confirm Password</label>
+                  <input type="password" name="password" id="password" maxlength="16" minlength="8" required placeholder="password..">
+             </div>
+             <button type="submit" class="login-btn">Sign Up</button>
+             <div class="form-section">
+                  <p>Have Account? <a onclick="openloginpage()">Log in</a></p>
+             </div>
+        </form>
+   </div>
+   <!-- FORGOT PASSWORD -->
+   <div class="forgot-container" id="forgot-container">
+    <form action="">
+        <a onclick="closeforgotpass()" align="left"><i class="fa-solid fa-xmark fa-xl" style="color: #000205;"></i></a>
+         <h2>Forgot Password</h2>
+         <p>Enter your email address below, and we'll send you a link to reset your password.</p>
+         <div class="input-group">
+              <label for="email">Email Address</label>
+              <input type="email" id="email" name="email" required>
+          </div>
+         <button type="submit" class="reset-btn">Reset Password</button>
+         <div class="back-login">
+              <a onclick="openloginpage()">Remembered your password? Log in here.</a>
+         </div>
+    </form>
+</div>
 </body> 
 </html>
