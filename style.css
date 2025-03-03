@@ -556,6 +556,7 @@ footer {
     }
     .login-container{
         width: 100%;
+        margin: 0 5px;
     }
     .login-container form{
         width: 350px;
@@ -606,6 +607,7 @@ footer {
     }
     .register-container{
         width: 100%;
+        margin: 0 5px;
     }
     .register-container form{
         width: 350px;
