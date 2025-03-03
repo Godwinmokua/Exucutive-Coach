@@ -399,6 +399,7 @@ footer {
     }
     nav ul li a{
         font-size: 20px;
+        cursor: pointer;
     }
     a:hover,a.active{
         background: none;
@@ -544,6 +545,7 @@ footer {
 }
 .forgot-password{
     margin: 10px 0;
+    cursor: pointer;
 
 }
 .login-container .login-btn{
@@ -596,6 +598,7 @@ footer {
 }
 .register-container a{
     color: #000;
+    cursor: pointer;
 }
 .register-container form{
     position: relative;
@@ -664,6 +667,7 @@ input[type=number]::-webkit-inner-spin-button {
 }
 .forgot-container a{
     color: #0000;
+    cursor: pointer;
 }
 .forgot-container form{
     position: relative;
@@ -727,6 +731,7 @@ input[type=number]::-webkit-inner-spin-button {
 .back-login a {
     color: #000;
     text-decoration: none;
+    cursor: pointer;
 }
 .back-login a:hover {
     text-decoration: underline;
