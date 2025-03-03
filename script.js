@@ -3,6 +3,7 @@ function openloginpage(){
      document.getElementById("login-container").style.display = "block";
      document.getElementById("register-container").style.display = "none";
      document.getElementById("homepage").classList.add("no-scroll");
+     document.getElementById("unordered-list").style.left = "-100%";
 }
 function closeloginpage(){
      document.getElementById("login-container").style.display = "none";
