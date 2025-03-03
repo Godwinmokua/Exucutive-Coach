@@ -30,7 +30,12 @@ function openforgotpass() {
 
 }
 function closeforgotpass() {
-     document.getElementById("forgot-container").style.display = "none";
-     document.body.remove("no-scroll");
+     setTimeout(() => {
+          document.getElementById("forgot-container").style.display = "none";
+          document.body.classList.remove("no-scroll");
+          location.reload(); // Reload the page after closing the popup
+        }, 300);
+     // document.body.remove("no-scroll");
 }
+   
    
