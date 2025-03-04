@@ -510,6 +510,11 @@ footer {
 .login-container a{
     color: #000;
 }
+.login-container i{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+}
 .login-container form{
     position: relative;
     margin: 50px auto;
@@ -603,6 +608,11 @@ footer {
     color: #000;
     cursor: pointer;
 }
+.register-container i{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+}
 .register-container form{
     position: relative;
     margin: 20px auto;
@@ -671,6 +681,11 @@ input[type=number]::-webkit-inner-spin-button {
 .forgot-container a{
     color: #0000;
     cursor: pointer;
+}
+.forgot-container i{
+    position: absolute;
+    top: 30px;
+    right: 30px;
 }
 .forgot-container form{
     position: relative;
