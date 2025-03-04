@@ -1,3 +1,9 @@
+
+
+setInterval(()=>{
+     locatiom.reload();
+},300000);
+
 // LOGIN PAGE
 function openloginpage(){
      document.getElementById("login-container").style.display = "block";
