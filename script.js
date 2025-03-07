@@ -9,6 +9,7 @@ function openLoginPage(){
      document.getElementById("login-container").style.display = "block";
      document.getElementById("register-container").style.display = "none";
      document.getElementById("homepage").classList.add("no-scroll");
+     document.getElementById("forgot-container").style.display = "none";
 }
 function closeLoginPage(){
      document.getElementById("login-container").style.display = "none";
