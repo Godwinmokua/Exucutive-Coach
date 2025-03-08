@@ -93,7 +93,7 @@ nav label{
     position: absolute;
     display: flex;
     justify-content: center;
-    margin-left: 105px;
+    margin-left: 85px;
     margin-top: -220px;
     color: #000;
     background: white;
@@ -414,7 +414,6 @@ footer {
     #check:checked ~ ul {
         left: 0;
     }
-    
     .slogan{
         margin-top: -230px;
     }
