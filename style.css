@@ -87,11 +87,6 @@ nav label{
     right: 20px;
     display: none;
 }
-.bus-image img{
-    width: 100%;
-    object-fit: cover;
-    overflow: hidden;
-}
 
 /* Booking Section */
 .slogan{
@@ -467,22 +462,17 @@ footer {
         height: 40px;
         font-size: 14px;
         font-weight: 400;
-        margin-top: 10px;
     }
     .input_box label{
         font-size: 16px;
         font-weight: 400;
     }
-    .slogan{
-        margin-top: -300px;
-    }
     .search_section form{
         align-items: center;
-        height: 420px;
-        margin-top: -210px;
+        height: 400px;
+        margin-top: -150px;
     }
     .search_section button{
-        margin:0 auto;
         width: 250px;
         height: 40px;
         font-size: 14px;
