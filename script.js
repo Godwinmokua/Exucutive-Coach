@@ -3,6 +3,7 @@
 setInterval(()=>{
      locatiom.reload();
 },300000);
+  
 
 // LOGIN PAGE
 function openLoginPage(){
