@@ -472,7 +472,7 @@ footer {
         margin-top: -300px;
     }
     .search_section form{
-        /* align-items: center; */
+        align-items: center;
         height: 420px;
         margin-top: -210px;
     }
