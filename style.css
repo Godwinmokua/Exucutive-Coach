@@ -418,6 +418,7 @@ footer {
         width: 100%; 
         display: block;
         margin-top: -80px;
+        object-fit: cover;
     }
     .slogan{
         margin-top: -230px;
