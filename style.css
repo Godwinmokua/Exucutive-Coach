@@ -471,8 +471,8 @@ footer {
         margin-top: -150px;
     }
     .search_section button{
-        margin-right: auto;
-        margin-left: auto;
+        margin-right: 8px;
+        align-self: center;
         width: 250px;
         height: 40px;
         font-size: 14px;
