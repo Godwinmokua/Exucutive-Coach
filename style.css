@@ -414,6 +414,7 @@ footer {
     #check:checked ~ ul {
         left: 0;
     }
+    
     .slogan{
         margin-top: -230px;
     }
