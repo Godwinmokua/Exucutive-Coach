@@ -457,16 +457,20 @@ footer {
         display: none;
     }
     .input_box select,input{
-        height: 30px;
+        height: 40px;
         font-size: 14px;
         font-weight: 400;
     }
     .input_box label{
-        font-size: 14px;
+        font-size: 16px;
         font-weight: 400;
     }
+    .search_section form{
+        height: 300px;
+        margin-top: -150px;
+    }
     .search_section button{
-        height: 30px;
+        height: 40px;
         font-size: 14px;
     }
 
