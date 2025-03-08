@@ -415,7 +415,7 @@ footer {
         left: 0;
     }
     .bus-image img{
-        width: 100%; 
+        /* width: 100%;  */
         display: block;
         margin-top: -80px;
         object-fit: cover;
@@ -469,7 +469,7 @@ footer {
         font-weight: 400;
     }
     .slogan{
-        margin-top: -290px;
+        margin-top: -300px;
     }
     .search_section form{
         align-items: center;
