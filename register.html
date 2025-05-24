@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Login</title>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+     <link rel="stylesheet" href="/public/style/style.css">
+     <link rel="shortcut icon" href="public/assets/favicon.gif" type="image/x-icon">
+     <title>Executive Coach</title>
+     <script src="/public/script/script.js" defer></script>
+</head>
+<body>
+     <div class="register-container" id="register-container">
+          <form action="">
+               <a href="login.html"><i class="fa-solid fa-arrow-left-long fa-xl" style="color: #000000;"></i>  Back to Login</a>
+               <div class="form-header">
+                    <h2>Register</h2>
+               </div>
+               <div class="form-input">
+                    <label for="username">Full Name</label>
+                    <input type="text" name="username" id="username" required placeholder="John Doe" maxlength="50">
+               </div>
+               <div class="form-input">
+                    <label for="id-number">ID Number</label>
+                    <input type="number" name="id-number" id="id-number" required placeholder="12345678" min="10000000" max="99999999" >
+               </div>
+               <div class="form-input">
+                    <label for="email">Email Address</label>
+                    <input type="email" name="email" id="email" required placeholder="johndoe@email.com">
+               </div>
+               <div class="form-input">
+                    <label for="password">Password</label>
+                    <input type="password" name="password" id="password" maxlength="16" minlength="8" required placeholder="password..">
+               </div>
+               <div class="form-input">
+                    <label for="password">Confirm Password</label>
+                    <input type="password" name="password" id="password" maxlength="16" minlength="8" required placeholder="password..">
+               </div>
+               <button type="submit" class="login-btn">Sign Up</button>
+               
+          </form>
+     </div>
+</body>
+</html>

@@ -504,25 +504,15 @@ footer {
 .login-container{
     height: 100dvh;
     overflow: hidden;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     position: fixed;
     height: 100dvh;
     overflow: hidden;
     z-index: 1000;
-    display: none;
-    background: rgba(0, 0, 0, 0.6); /* Dark overlay */
     width: 100%;
     transition: transform 0.3s ease-out, opacity 0.3s ease-out;
 }
 .login-container a{
     color: #000;
-}
-.login-container i{
-    position: absolute;
-    top: 30px;
-    right: 30px;
 }
 .login-container form{
     position: relative;
@@ -601,26 +591,17 @@ footer {
 
 /* REGISTER PAGE */
 .register-container{
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     position: fixed;
     height: 100dvh;
     overflow: hidden;
     z-index: 1000;
-    display: none;
-    background: rgba(0, 0, 0, 0.6); /* Dark overlay */
     width: 100%;
     transition: transform 0.3s ease-out, opacity 0.3s ease-out;
 }
 .register-container a{
+    margin-top: 10px;
     color: #000;
     cursor: pointer;
-}
-.register-container i{
-    position: absolute;
-    top: 30px;
-    right: 30px;
 }
 .register-container form{
     position: relative;
@@ -638,7 +619,7 @@ footer {
 .register-container .login-btn{
     width: 100%;
     height: 35px;
-    margin: 0 auto;
+    margin: 20px auto;
     cursor: pointer;
     border-radius: 10px;
     border: 1px solid black;
@@ -675,33 +656,24 @@ input[type=number]::-webkit-inner-spin-button {
 
 /*FORGOT PASSWORD*/
 .forgot-container{
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
     position: fixed;
     height: 100dvh;
     overflow: hidden;
     z-index: 1000;
-    display: none;
-    background: rgba(0, 0, 0, 0.6); /* Dark overlay */
     width: 100%;
-    transition: transform 0.3s ease-out, opacity 0.3s ease-out;
+    display: flex;
+    align-items: center;
 }
-.forgot-container a{
+.forgot-container a,i{
     color: #0000;
     cursor: pointer;
-}
-.forgot-container i{
-    position: absolute;
-    top: 30px;
-    right: 30px;
 }
 .forgot-container form{
     position: relative;
     margin: 20px auto;
     border: 2px solid black;
     border-radius: 20px;
-    height: 500px;
+    height: 400px;
     width: 400px;
     display: flex;
     flex-direction: column;
@@ -709,7 +681,7 @@ input[type=number]::-webkit-inner-spin-button {
     gap: 20px;
     padding: 10px 30px;
     background: linear-gradient(225deg, rgba(251,251,194,1) 0%, rgba(252,176,69,1) 100%);
-    text-align: center;
+    /* text-align: center; */
 }
 .forgot-container h2 {
     margin-bottom: 15px;

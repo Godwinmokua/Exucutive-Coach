@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/public/style/style.css">
     <link rel="shortcut icon" href="/assets/favicon.gif" type="image/x-icon">
     <title>Executive Coach</title>
-    <script src="script.js" defer></script>
+    <script src="/public/script/script.js" defer></script>
 </head>
 <body>
     <div class="homepage" id="homepage">
@@ -30,12 +30,12 @@
                 <li><a href="#">Parcels</a></li>
                 <li><a href="#">About Us</a></li>
                 <li><a href="#">Contact Us</a></li>
-                <li><button onclick="openLoginPage()">Login</button></li>
+                <li><button><a href="login.html">Login</a></button></li>
             </ul>
         </nav>
 
         <div class="bus-image">
-            <img src="/assets/Exucutive Coach.webp" alt="Bus" width="100%" height="700px">
+            <img src="public/assets/Exucutive Coach.webp" alt="Bus" width="100%" height="700px">
         </div>
         <div class="slogan">
             <h1>Experience Dignity</h1>
@@ -159,32 +159,32 @@
             <div class="destinations-container">
                 <div class="destinations">
                     <h5>NAIROBI</h5>
-                    <img src="/assets/nairobi.webp" alt="Nairobi">
+                    <img src="public/assets/nairobi.webp" alt="Nairobi">
                     <h3>Nairobi to Kitale</h3>
                 </div>
                 <div class="destinations">
                     <h5>SIRARE</h5>
-                    <img src="/assets/sirare.webp" alt="Nairobi">
+                    <img src="public/assets/sirare.webp" alt="Nairobi">
                     <h3>Nairobi to Sirare</h3>
                 </div>
                 <div class="destinations">
                     <h5>MUMIAS</h5>
-                    <img src="/assets/mumias.webp" alt="Nairobi">
+                    <img src="public/assets/mumias.webp" alt="Nairobi">
                     <h3>Nairobi to Mumias</h3>
                 </div>
                 <div class="destinations">
                     <h5>BUSIA</h5>
-                    <img src="/assets/busia.webp" alt="Nairobi">
+                    <img src="public/assets/busia.webp" alt="Nairobi">
                     <h3>Nairobi to Busia</h3>
                 </div>
                 <div class="destinations">
                     <h5>MALABA</h5>
-                    <img src="/assets/malaba.webp" alt="Nairobi">
+                    <img src="public/assets/malaba.webp" alt="Nairobi">
                     <h3>Nairobi to Malaba</h3>
                 </div>
                 <div class="destinations">
                     <h5>KISUMU</h5>
-                    <img src="/assets/kisumu.webp" alt="Nairobi">
+                    <img src="public/assets/kisumu.webp" alt="Nairobi">
                     <h3>Kisumu to Nairobi</h3>
                 </div>
             </div>
@@ -195,23 +195,23 @@
                 <h1>Discover all Destinations</h1>
                 <p>Choose from over 35 Travel Destinations</p>
             </div>
-            <img src="/assets/Kenya-Tealand-Near-Kericho-2012.JPG" alt="Kericho" >
+            <img src="public/assets/Kenya-Tealand-Near-Kericho-2012.JPG" alt="Kericho" >
         </section>
 
         <section class="awards">
             <h1>Awards</h1>
             <div class="award-container">
                 <div class="award">
-                    <img src="/assets/ministry.jpeg" alt="Ministry  of Road and Transport" width="330px">
+                    <img src="public/assets/ministry.jpeg" alt="Ministry  of Road and Transport" width="330px">
                 </div>
                 <div class="award">
-                    <img src="/assets/KRA.png" alt="KRA" width="150px">
+                    <img src="public/assets/KRA.png" alt="KRA" width="150px">
                 </div>
                 <div class="award">
-                    <img src="/assets/superbrands.jpeg" alt="Superbrands" width="100px">
+                    <img src="public/assets/superbrands.jpeg" alt="Superbrands" width="100px">
                 </div>
                 <div class="award">
-                    <img src="/assets/kpmg.png" alt="kpmg" width="150px">
+                    <img src="public/assets/kpmg.png" alt="kpmg" width="150px">
                 </div>
             </div> 
         </section>
@@ -256,82 +256,6 @@
         </div>
         <p class="copyright">© 2025 BusBooking. All Rights Reserved.</p>
         </footer>
-    </div>
-
-    <!-- LOGIN SECTION -->
-    <div class="login-container" id="login-container">
-        <form action="">
-            <a onclick="closeLoginPage()"><i class="fa-solid fa-xmark fa-xl" style="color: #000205;"></i></a>
-            <div class="form-header">
-                  <h1>Executive Coach</h1>
-                  <h2>Login</h2>
-            </div>
-            <div class="form-input">
-                  <label for="email">Email Address</label>
-                  <input type="email" name="email" id="email" required placeholder="johndoe@email.com">
-             </div>
-             <div class="form-input">
-                  <label for="password">Password</label>
-                  <input type="password" name="password" id="password" maxlength="16" minlength="8" required placeholder="password..">
-                  <div class="forgot-password">
-                       <a onclick="openForgotPass()">Forgot Password?</a>
-                  </div>
-             </div>
-             <button type="submit" class="login-btn" >Login</button>
-             <div class="form-section">
-                  <p>Don't Have Account? <a onclick="openRegister()" style="cursor: pointer;">Register</a></p>
-             </div>
-        </form>
-    </div>
-    <!-- REGISTER SECTION -->
-    <div class="register-container" id="register-container">
-        <form action="">
-            <a onclick="closeRegister()"><i class="fa-solid fa-xmark fa-xl" style="color: #000205;"></i></a>
-             <div class="form-header">
-                  <h1>Executive Coach</h1>
-                  <h2>Register</h2>
-             </div>
-             <div class="form-input">
-                  <label for="username">Full Name</label>
-                  <input type="text" name="username" id="username" required placeholder="John Doe" maxlength="50">
-             </div>
-             <div class="form-input">
-                  <label for="id-number">ID Number</label>
-                  <input type="number" name="id-number" id="id-number" required placeholder="12345678" min="10000000" max="99999999" >
-             </div>
-             <div class="form-input">
-                  <label for="email">Email Address</label>
-                  <input type="email" name="email" id="email" required placeholder="johndoe@email.com">
-             </div>
-             <div class="form-input">
-                  <label for="password">Password</label>
-                  <input type="password" name="password" id="password" maxlength="16" minlength="8" required placeholder="password..">
-             </div>
-             <div class="form-input">
-                  <label for="password">Confirm Password</label>
-                  <input type="password" name="password" id="password" maxlength="16" minlength="8" required placeholder="password..">
-             </div>
-             <button type="submit" class="login-btn">Sign Up</button>
-             <div class="form-section">
-                  <p>Have Account? <a onclick="openLoginPage()">Log in</a></p>
-             </div>
-        </form>
-   </div>
-   <!-- FORGOT PASSWORD -->
-   <div class="forgot-container" id="forgot-container">
-    <form action="">
-        <a onclick="closeForgotPass()" align="left"><i class="fa-solid fa-xmark fa-xl" style="color: #000205;"></i></a>
-         <h2>Forgot Password</h2>
-         <p>Enter your email address below, and we'll send you a link to reset your password.</p>
-         <div class="input-group">
-              <label for="email">Email Address</label>
-              <input type="email" id="email" name="email" required>
-          </div>
-         <button type="submit" class="reset-btn">Reset Password</button>
-         <div class="back-login">
-              <a onclick="openLoginPage()">Remembered your password? Log in here.</a>
-         </div>
-    </form>
-</div>
+    </div>  
 </body> 
 </html>
